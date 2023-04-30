@@ -25,4 +25,7 @@ const number = 35;
 //number=45; you cannot re-assign const variables
 console.log(number);
 
+let userName=null;
+console.log(userName);
+
 
