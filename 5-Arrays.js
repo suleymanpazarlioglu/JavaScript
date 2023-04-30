@@ -8,9 +8,9 @@
 
 let scores = new Array();//creates an empty Array
 let numbers = new Array(10);//creates an array with size 10
-let emptyArray=[]; // creates empty array
-let myNumbers=new Array(1,2,3,5,8,13);
-let colors=["red","green","black","blue"];
+let emptyArray = []; // creates empty array
+let myNumbers = new Array(1, 2, 3, 5, 8, 13);
+let colors = ["red", "green", "black", "blue"];
 
 console.log(scores);
 console.log(numbers);
@@ -33,7 +33,7 @@ console.log(colors);
 
 //the size of the array
 console.log(colors.length);
-for(let i=0;i<colors.length;i++){
+for (let i = 0; i < colors.length; i++) {
     console.log(colors[i]);
 }
 
@@ -42,12 +42,12 @@ for (let value of colors) {
     console.log(value);
 }
 
-colors.forEach(element =>{
+colors.forEach(element => {
     console.log(element);
 });
 
 //can we add multiple type of Data? YES
-let soupOfData=[5,"ali",true,undefined];// you can also put Map,Object,Functions inside arrays
+let soupOfData = [5, "ali", true, undefined];// you can also put Map,Object,Functions inside arrays
 soupOfData.forEach(element => {
     console.log(typeof element);
 });
